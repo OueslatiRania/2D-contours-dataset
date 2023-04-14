@@ -3,7 +3,7 @@
 In this repository, we publish our 2D, closed and planar contour datasets used to train and test the Deep learning model presented in our paper entitled
 "DeepGCSS: a robust and explainable contour classifier providing Generalized Curvature Scale Space features".
 
-For our tests, we use MPEG7 and MNIST digits datasets. For both datasets, we proceed an arc-length re-parametrization of contours. 
+For our tests, we use MPEG-7 and MNIST digits datasets. For both datasets, we proceed an arc-length re-parametrization of contours. 
 A brief description of the datasets and their preprocessing is available in details in this repository. 
 
 ### MPEG-7 contours dataset:
