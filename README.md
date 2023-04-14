@@ -21,3 +21,4 @@ Other than MPEG-7 exisiting contour dataset
 <img src="Images/Algorithm1.PNG" width=400 >
 
 For testing the DeepGCSS model  we first use MNIST digits dataset in order to compare our results with ContourCNN that chooses to use this same set. For extracting contours from this image datasets, we use (algorithm1) where we call bwboundaries function implemented in Matlab.
+
