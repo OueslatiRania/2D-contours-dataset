@@ -31,8 +31,8 @@ parameterization with respectively 70 points and 120 points
 
 In this work, we assume that the boundary coordinates of the 2D shape is a
 closed contour. Let Γ be a curve and its parameterization Γ(u) is a function
-of a parametric variable u defined as: 
-<img src="Images/equation1.PNG" width=550 >
+of a parametric variable u defined as:                  
+             <img src="Images/equation1.PNG" width=550 >
 
 Since the parameterization of the curve is not unique, contour coordinates
 are expressed in terms of arc-length parametrization as follows:
