@@ -14,18 +14,37 @@ Figure 1: Dataset: On the left MPEG-7 image dataset; On the right MPEG7
 contour datase
 
 ### MNIST 2D contours dataset: 
-The MNIST database of handwritten digits (available in the following link: http://yann.lecun.com/exdb/mnist/) is a subset of a larger set available from MNIST. It contains 70000 images. We introduce our proposed algorithm \ref{contour_extract} where we call $bwboundaries$ function implemented in Matlab in order to extract external contours from this image dataset.
+The MNIST database of handwritten digits (available in the following link: http://yann.lecun.com/exdb/mnist/) is a subset of a larger set available from MNIST. It contains 70000 images. We present in the sequel our proposed algorithm where we call the $bw_boundaries$ function implemented in Matlab in order to extract external contours from this image dataset.
 We divide the obtained set into 60000 contours for training and 10000 contours for validation.
 
 <img src="Images/mnist.png " width=400 >
 Figure 2: MNIST Dataset: On the top some samples from the MNIST image
 dataset; On the bottom corresponding MNIST contour dataset
 
-Contours are reparametrized using the arc length parametrization 
-
-Other than MPEG-7 exisiting contour dataset
-
 <img src="Images/Algorithm1.PNG" width=550 >
 
-For testing the DeepGCSS model  we first use MNIST digits dataset in order to compare our results with ContourCNN that chooses to use this same set. For extracting contours from this image datasets, we use (algorithm1) where we call bwboundaries function implemented in Matlab.
+Both 2-D contours extracted from MNIST digits dataset and MPEG-7 are reparametrized using the arc length parametrization. 
+
+Contour arc-length re-parameterization. (a) Extracted contour from
+a shape that belongs to MPEG-7 dataset. (b,c) Contour arc-length re-
+parameterization with respectively 70 points and 120 points
+
+In this work, we assume that the boundary coordinates of the 2D shape is a
+closed contour. Let Γ be a curve and its parameterization Γ(u) is a function
+of a parametric variable u defined as: 
+<img src="Images/equation1.PNG" width=550 >
+
+Since the parameterization of the curve is not unique, contour coordinates
+are expressed in terms of arc-length parametrization as follows:
+<img src="Images/equation2.PNG" width=550 >
+
+Where φ−1(s) represents the inverse of the arc length function defined as: 
+<img src="Images/equation3.PNG" width=550 >
+
+All inputs are preprocessed in this way to ensure the uniqueness of the
+speed we go over the curve and to get rid of the starting point problem.
+
+<img src="Images/Arc-length.PNG" width=550 >
+
+
 
