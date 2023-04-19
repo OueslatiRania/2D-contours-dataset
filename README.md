@@ -44,7 +44,6 @@ Where φ−1(s) represents the inverse of the arc length function defined as:
 
 All inputs are preprocessed in this way to ensure the uniqueness of the
 speed we go over the curve and to get rid of the starting point problem.
-
 <img src="Images/Arc-length.PNG" width=550 >
 
 
