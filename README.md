@@ -43,8 +43,7 @@ Where φ−1(s) represents the inverse of the arc length function defined as:
 
 <img src="Images/equation3.PNG" width=550 >
 
-All inputs are preprocessed in this way to ensure the uniqueness of the
-speed we go over the curve and to get rid of the starting point problem.
+All inputs are preprocessed in this way to ensure the uniqueness of the speed we go over the curve and to get rid of the starting point problem.
 
 
 
