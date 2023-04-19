@@ -24,10 +24,10 @@ dataset; On the bottom corresponding MNIST contour dataset
 <img src="Images/Algorithm1.PNG" width=550 >
 
 Both 2-D contours extracted from MNIST digits dataset and MPEG-7 are reparametrized using the arc length parametrization. 
+An illustration of this parametrization is given by the following image where (a) presents the extracted contour from a shape that belongs to MPEG-7 dataset.
+Then B and C show the corresponding ontour arc-length reparameterization with respectively 70 points and 120 points
+<img src="Images/arc-length.PNG" width=550 >
 
-Contour arc-length re-parameterization. (a) Extracted contour from
-a shape that belongs to MPEG-7 dataset. (b,c) Contour arc-length re-
-parameterization with respectively 70 points and 120 points
 
 In this work, we assume that the boundary coordinates of the 2D shape is a
 closed contour. Let Γ be a curve and its parameterization Γ(u) is a function
@@ -40,11 +40,12 @@ are expressed in terms of arc-length parametrization as follows:
 <img src="Images/equation2.PNG" width=550 >
 
 Where φ−1(s) represents the inverse of the arc length function defined as: 
+
 <img src="Images/equation3.PNG" width=550 >
 
 All inputs are preprocessed in this way to ensure the uniqueness of the
 speed we go over the curve and to get rid of the starting point problem.
-<img src="Images/Arc-length.PNG" width=550 >
+
 
 
 
