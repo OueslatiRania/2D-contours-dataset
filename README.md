@@ -26,7 +26,7 @@ dataset; On the bottom corresponding MNIST contour dataset
 Both 2-D contours extracted from MNIST digits dataset and MPEG-7 are reparametrized using the arc length parametrization. 
 An illustration of this parametrization is given by the following image where (a) presents the extracted contour from a shape that belongs to MPEG-7 dataset.
 Then B and C show the corresponding ontour arc-length reparameterization with respectively 70 points and 120 points
-<img src="Images/arc-length.PNG" width=550 >
+<img src="Images/Arc-length.PNG" width=550 >
 
 
 In this work, we assume that the boundary coordinates of the 2D shape is a
