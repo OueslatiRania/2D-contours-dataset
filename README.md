@@ -36,6 +36,7 @@ of a parametric variable u defined as:
 
 Since the parameterization of the curve is not unique, contour coordinates
 are expressed in terms of arc-length parametrization as follows:
+
 <img src="Images/equation2.PNG" width=550 >
 
 Where φ−1(s) represents the inverse of the arc length function defined as: 
