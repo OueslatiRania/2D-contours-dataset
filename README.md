@@ -29,7 +29,7 @@ An illustration of this parametrization is given by the following image where (a
 Then B and C show the corresponding ontour arc-length reparameterization with respectively 70 points and 120 points. The points are equi-disstant in both cases.
 <img src="Images/Arc-length.PNG" width=550 >
 
-###Arc-length parametrization:
+### Arc-length parametrization:
 In this work, we assume that the boundary coordinates of the 2D shape is a closed contour. Let Γ be a curve and its parameterization Γ(u) is a function
 of a parametric variable u defined as:                  
              <img src="Images/equation1.PNG" width=550 >
