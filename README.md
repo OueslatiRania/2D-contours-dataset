@@ -22,6 +22,7 @@ Figure 2: MNIST Dataset: On the top some samples from the MNIST image
 dataset; On the bottom corresponding MNIST contour dataset
 
 <img src="Images/Algorithm1.PNG" width=550 >
+
 ## Data preprocessing:
 
 Both 2-D contours extracted from MNIST digits dataset and MPEG-7 are reparametrized using the arc length parametrization. 
